@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 0;
+    position: relative;
+    
+}
+.dash-header{
+    
+    overflow: hidden;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+   
+}
+.dash-header img{
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 40;
+    padding-right: 60px;
+}
+.dash-header a{
+    
+    padding-right: 60px;
+    padding-bottom: 30px ;
+    color: #484c4f;
+    font-weight: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#button{
+    
+    border-color: white;
+    background-color: white;
+    border-width: 1px;
+    height: 35px;
+    width: 200px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: lighter;
+    box-shadow:   0 4px 15px #a3a3a3ad; 
+}
+
+.header{
+    
+    overflow: hidden;
+    background-color: #1e3932;
+    width: 100%;
+    height: 15px;
+    color: white;
+    font-size: 20;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+}
+#head{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #1e3932;
+    
+}
+.display{
+    
+    margin-top: 30px;
+    margin-left: 60px ;
+    width: 90%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+     
+}
+.display img{
+    cursor: pointer;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+  }
+.display p{
+    text-align: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+}
+.outer-card{
+    background: #edebe9;
+    height: 300px;
+    width: 100%;
+}
+.outer-card h2{
+    padding-top:20px ;
+}
+.inner-card{
+
+    margin-left: 80px;
+    padding: 10px;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+
+}
+.card{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    height: 135px;
+    width: 338px;
+}
+.card img{
+    
+    border-radius: 8px;
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+    
+    
+}
+.card h3{
+    margin-left: 13px;
+    margin-top: 2px;
+    font-weight: 550;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.card p{
+    margin-top: -85px;
+    margin-left: 105px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card button{
+    margin-top: 15px;
+    margin-left: 223px;
+}
+.card button{
+    border-color: #00754a;
+    background-color: #00754a;
+    border-width: 1px;
+    height: 35px;
+    width: 95px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+}
+.displaymocha{
+    width: 100%;
+    height: 450px;
+    
+
+}
+.innercard{
+    margin-top: 30px;
+    margin-left:97px;
+    cursor: pointer;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.card-mocha{
+    
+    border-radius: 8px;
+    background-color: white;
+    height: 300px;
+    width: 330px;
+    border: 1px solid;
+    border-color:#dad5d5ad ;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+}
+.card-mocha img{
+    height:150px;
+    width: 330px;
+}
+.card-mocha h2{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+}
+.card-mocha h3{
+    padding-top: 25;
+    padding-left: 15px;
+    font-size: medium;
+    font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+}
+.card-mocha button{
+    margin-left: 210px;
+    margin-top: -25px;
+    border-color: #00754a;
+    background-color: #00754a;
+    border-width: 1px;
+    height: 35px;
+    width: 95px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+}
+
+.card-mocha p{
+  
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 10px;
+    color: #044f34; 
+    color: #000000de;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    height: 450px;
+    background-color: #1e3932 ;
+
+}
+.footer img{
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 250px;
+    font-weight: 100;
+    margin-top: -60px;
+    display: grid;
+    gap: 25px 50px;
+    grid-template-columns: auto auto auto;
+    width: 800px;
+    color: white;
+    
+
+}
+.footer h2{
+    color: white;
+    font-weight: 600;
+    
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 850px;
+    margin-top: -257px;
+}
+#i1{
+    padding-left: 850px;
+    padding-top: 25px;
+}
+#i2{
+    padding-left: 10px;
+    margin-top: -40px;
+}
+#i3{
+    margin-left: -65px;
+    margin-top: -40px;
+}
+#store1{
+    margin-top: -120px;
+    margin-left: 920px;
+}
+#store2{
+    margin-top: -60px;
+margin-left: 920px;
+}
+hr{
+    margin-top: 210px;
+    width: 1.rem;
+    width: 80%;
+    margin-left: 110px;
+}
+.final{
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+    padding-left: 110px;
+    color: white;
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#reserve{
+color: white;
+font-size: x-small;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-left:845px ;
+margin-top: -10px;
+}
+
+
